@@ -7,16 +7,19 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Gallery </title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Bangers|Berkshire+Swash|Chewy|Lobster|Luckiest+Guy|Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <<style>
-            .navbar {
+        <style>
+           
+            .navbar-inverse {
+                
                 background: #181d26;
-            }
-            .navbar-text {
-                color: lightblue;
-            }
+                font-family: 'Berkshire Swash';
+                }
+           
             
              .gal {
                 margin-top: 1em;
@@ -29,57 +32,96 @@
                 
                 background-image:  linear-gradient(orange, transparent), url("./DSC_0233.jpg") ;
                 background-size:cover;
-
-                background
+                color: black;
+                font-family: Bangers;
+                text-align: center;
+                
             }
+            .glyphicon {
+                margin: .25em;
+            }
+            body {
+                padding-top: 70px;
+            }
+           
         </style>
     </head>
     <body>
-            <nav class="navbar navbar-toggleable-md navbar-default bg-faded">
-                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-picture"></span>Galeria fotografii</a>
-                    <div class="collapse navbar-collapse" id="navbarText">
-                      <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="./gallery.html">Strona domowa <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Sprzęt foto</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">O mnie</a>
-                        </li>
-                      </ul>
-                      <span class="navbar-text">
-                        Galeria autorstwa Tomcatmi6.
-                      </span>
-                    </div>
-                  </nav>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+             
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#"><i class="fa fa-html5" aria-hidden="true"></i></a>
+                
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">O mnie</a></li>
+                    <li><a href="#">Używany sprzęt</a></li>
+                    <li><a href="#">Odwiedzone miejsca</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
         <div class="container">
             <div class="jumbotron" >
-        <h1><span class="glyphicon glyphicon-picture"></span>Galeria zdjęć</h1>
+        <h1><span class="fa fa-picture-o" aria-hidden="true"></span> Galeria zdjęć</h1>
         <p>Trochę zdjęć z podróży:</p>
             </div>
             <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  ">
-                            <img src="./pics/a.jpg" class="img-fluid img-thumbnail gal" alt="Responsive image">
+                            <img src="./pics/DSC_0047.jpg" class="img-fluid img-thumbnail gal" alt="Responsive image">
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  ">
-                            <img src="./pics/b.jpg" class="img-fluid img-thumbnail gal" alt="Responsive image">
-                        </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  ">
-                            <img src="./pics/c.jpg" class="img-fluid img-thumbnail gal" alt="Responsive image">
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  ">
-                                <img src="./pics/d.jpg" class="img-fluid img-thumbnail gal " alt="Responsive image">
-                                   
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  ">
-                                    <img src="./pics/e.jpg" class="img-fluid img-thumbnail gal" alt="Responsive image">
-                                </div>
 
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  ">
+                            <img src="./pics/DSC_0242.jpg" class="img-fluid img-thumbnail gal" alt="Responsive image">
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  ">
+                           <img src="./pics/DSC_0255.jpg" class="img-fluid img-thumbnail gal" alt="Responsive image">
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  ">
+                             <img src="./pics/DSC_0284.jpg" class="img-fluid img-thumbnail gal " alt="Responsive image">
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  ">
+                             <img src="./pics/DSC_0290.jpg" class="img-fluid img-thumbnail gal" alt="Responsive image">
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  ">
+                        <img src="./pics/DSC_0343.jpg" class="img-fluid img-thumbnail gal" alt="Responsive image">
+               </div>
+               
+               <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  ">
+                <img src="./pics/DSC_0377.jpg" class="img-fluid img-thumbnail gal" alt="Responsive image">
+       </div>
+       
+       <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  ">
+        <img src="./pics/DSC_0407.jpg" class="img-fluid img-thumbnail gal" alt="Responsive image">
+</div>
+
+<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  ">
+    <img src="./pics/DSC_0444.jpg" class="img-fluid img-thumbnail gal" alt="Responsive image">
+</div>
+
+<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  ">
+        <img src="./pics/DSC_0494.jpg" class="img-fluid img-thumbnail gal" alt="Responsive image">
+    </div>
+    
+<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  ">
+        <img src="./pics/DSC_0639.jpg" class="img-fluid img-thumbnail gal" alt="Responsive image">
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  ">
+            <img src="./pics/DSC_0690.jpg" class="img-fluid img-thumbnail gal" alt="Responsive image">
+        </div>
+        
+<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  ">
+        <img src="./pics/DSC_0709.jpg" class="img-fluid img-thumbnail gal" alt="Responsive image">
+    </div>
+    
+<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12  ">
+        <img src="./pics/DSC_0734.jpg" class="img-fluid img-thumbnail gal" alt="Responsive image">
+    </div>
             </div>
     </div>
         <!--[if lt IE 7]>
@@ -87,7 +129,7 @@
         <![endif]-->
         
     </body>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script
     src="https://code.jquery.com/jquery-3.2.1.slim.js"></script>
 </html>
