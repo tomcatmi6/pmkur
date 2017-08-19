@@ -1,0 +1,30 @@
+.navbar-inverse {
+                
+    background: #181d26;
+    font-family: 'Berkshire Swash';
+                }
+           
+            
+.gal {
+     margin-top: 1em;
+     width: 100%;     
+     } 
+            
+.jumbotron {
+     
+     background-image:  linear-gradient(orange, transparent), url("./DSC_0233.jpg") ;
+     background-size:cover;
+     color: black;
+     font-family: Bangers;
+     text-align: center;
+            }
+.glyphicon {
+    margin: .25em;
+        }
+ body {
+     padding-top: 70px;
+     background: lightblue;
+    }
+ .thumbnail {
+     object-fit: scale-down;
+     }
