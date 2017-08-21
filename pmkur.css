@@ -29,16 +29,18 @@ h1 {
     
 }
 
-    h2 {
-        background-color: rgba(0,0,0,0.2)
-        
-    }
+h2 {
+    background-color: rgba(0,0,0,0.2)
 }
+        
+
 html {
     height:100%;
 }
 
-    
+ .ml-auto {
+     text-align: justify;
+ }   
 
 .mr-auto img {
     
