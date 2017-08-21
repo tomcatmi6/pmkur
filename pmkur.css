@@ -24,11 +24,14 @@ h1 {
     padding: 5px;
     margin: 5px;
 }
-.navbar-brand {
-    padding: 0px 5px;
-    
+.navbar-brand span{
+   text-align: top;
+   margin-bottom: 5px;
+    font-size: 4rem;
+  height: 100%;
+  width: 100%;
 }
-
+.
 h2 {
     background-color: rgba(0,0,0,0.2)
 }
@@ -81,32 +84,32 @@ footer {
     max-height:80%; 
     max-width:80%;
 }
-.head_img {
-    
-    height: 50px;
-    width: 60px;
-  align-self:left;
-    object-fit: fill;
-   
-    /* padding-bottom: 10px; */
-}
+
 .navbar-toggle {
-    width:85%;
+    width:100%;
+    float:none;
 }
-.iconsnav{
-    object-fit: fill;
-    position: relative;
-    
+.iconsnav {
+    margin: auto;
 }
-.fa {
+.iconsnav span{
+    font-family: icomoon;
     margin-left: 7%;
     font-size: 2.5rem;
     color: #D6EFDE;
 }
-.fa:hover{
+
+.iconsnav span:hover{
     color: rgba(126, 126, 196, 0.56);
 }
 .navbar{
     font-family: Righteous;
     
+}
+.logo {
+    color: white;
+}
+.navbar-mob span{
+    size: 4rem;
+ margin-left:8%;
 }
