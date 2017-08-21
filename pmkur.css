@@ -1,0 +1,72 @@
+body {
+    height: 100%;
+    margin:0px;
+    background: url(./pmkur/4.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 70px;
+}
+#headTxt {
+    font-family: Righteous;
+    font-size: 1.5em;
+}
+.list-inline-item {
+    background-color: rgba(0,0,0,0.7)
+}
+.row {
+    margin: 20% 0% 20% 0%;
+    color: #D6EFDE;
+    padding: 0% 0% 10% 0%;
+    text-shadow: 0px 4px 3px #0A0404;
+}
+
+.logo1 {
+    padding: 5px;
+    margin 5px;
+}
+.navbar-brand img{
+    
+    width: 50px;
+    height: 50px;
+}
+
+    h2 {
+        background-color: rgba(0,0,0,0.2)
+        
+    }
+}
+html {
+    height:100%;
+}
+
+    
+
+.mr-auto img {
+    
+   margin-top: 15%;
+   padding:1px;
+   border:1px solid #909DB1;
+   
+}
+
+    
+.head {
+   text-align: center;
+  
+    /* background: rgba(184, 214, 184, 0.78); */
+    color: #D6EFDE;
+padding: 0% 0% 30% 0%;
+text-shadow: 0px 4px 3px #0A0404;
+
+}
+.headLine {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: rgba(0,0,0,0.2);
+}
+hr { 
+     width: 75%;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: rgba(0,0,0,0.2);
+
+}
