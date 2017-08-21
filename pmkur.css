@@ -6,7 +6,7 @@ body {
     background-attachment: fixed;
     padding-top: 70px;
 }
-#headTxt {
+h1 {
     font-family: Righteous;
     font-size: 1.5em;
 }
@@ -75,4 +75,14 @@ footer {
     font-family: Acme;
     color: silver;
     margin-bottom: 10px;
+}
+.service_img {
+    max-height:80%; 
+    max-width:80%;
+}
+.headimg {
+    max-width:70px; 
+    max-height:70px; 
+    margin-top: -5px; 
+    padding-bottom: 5px;
 }
