@@ -70,3 +70,9 @@ hr {
     border-bottom: rgba(0,0,0,0.2);
 
 }
+footer {
+    text-align: center;
+    font-family: Acme;
+    color: silver;
+    margin-bottom: 10px;
+}
