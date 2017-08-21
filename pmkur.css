@@ -24,8 +24,8 @@ h1 {
     padding: 5px;
     margin 5px;
 }
-.navbar-brand img{
-    
+.navbar-brand {
+    padding: 0px 5px;
     
 }
 
@@ -82,9 +82,31 @@ footer {
     max-width:80%;
 }
 .head_img {
-    width: 50px;
-    height: 50px;
     
-    margin-top: -5px; 
-    padding-bottom: 5px;
+    height: 50px;
+    width: 60px;
+  align-self:left;
+    object-fit: fill;
+   
+    /* padding-bottom: 10px; */
+}
+.navbar-toggle {
+    width:75%;
+}
+.iconsnav{
+    object-fit: fill;
+    position: relative;
+    
+}
+.fa {
+    margin-left: 10%;
+    font-size: 2.5em;
+    color: #D6EFDE;
+}
+.fa:hover{
+    color: rgba(126, 126, 196, 0.56);
+}
+.navbar{
+    font-family: Righteous;
+    
 }
