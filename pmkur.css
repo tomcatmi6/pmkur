@@ -9,6 +9,12 @@ body {
 h1 {
     font-family: Righteous;
     font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: fit-content;
+    text-align: -webkit-center;
+    margin: auto;
+    padding: 1.5rem;
+    border-radius: 14px;
 }
 .list-inline-item {
     background-color: rgba(0,0,0,0.7)
@@ -23,6 +29,12 @@ h1 {
 .logo1 {
     padding: 5px;
     margin: 5px;
+}
+
+.logo1 img {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    border-radius: 55px;
 }
 .navbar-brand span{
    text-align: top;
